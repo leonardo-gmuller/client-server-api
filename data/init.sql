@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS exchange_rate (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    price DECIMAL(10,2),
+    created_at DATETIME
+)
